@@ -1,4 +1,4 @@
-package com.example.app_modular
+package com.dev.vitoriassia.app_modular.fcm
 
 import io.flutter.embedding.android.FlutterActivity
 
