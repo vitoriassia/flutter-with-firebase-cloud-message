@@ -1,3 +1,4 @@
+import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
@@ -9,8 +10,6 @@ class AppWidget extends StatefulWidget {
 class _AppWidgetState extends State<AppWidget> {
   @override
   void initState() {
-    Future.delayed(Duration(seconds: 2))
-        .then((value) => Modular.to.navigate('/auth/'));
     super.initState();
   }
 
